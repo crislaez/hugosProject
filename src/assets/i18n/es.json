@@ -1,0 +1,68 @@
+{
+  "COMMONS":{
+    "TITLE":"C, Soluciones Empresariales del Valle del Ebro S.L.U.",
+    "CONTACT_US":"Contáctanos : 948 114 055",
+    "EMAIL":"hcaldez60@gmail.com",
+    "HOME":"Inicio",
+    "CONTACT":"Contacto",
+    "SERVICES":"Servicios",
+    "TWITTER":"Twitter",
+    "LINKEDIN":"Linkedin",
+    "KNOW_US":"Conócenos"
+  },
+  "HOME":{
+    "OBJETIVE":"Nuestro OBJETIVO: ayudarle a mejorar la gestión de su organización y a desarrollar su negocio.",
+    "COMMITED":"Comprometidos con nuestros CLIENTES.",
+    "OUR_COMPANY":"Nuestra Empresa",
+    "OUR_COMPANY_MESSAGE":"Somos un equipo que disfruta con lo que hace y su único objetivo es ayudarle para que su negocio crezca hasta alcanzar el mayor de los éxitos. Afrontamos nuestros proyectos de manera personalizada, adaptando nuestras actuaciones a las necesidades concretas de nuestros clientes.",
+    "OUR_SERVICES":"Nuestros Servicios",
+    "OUR_SERVICES_MESSAGE":"Prestamos una amplia gama de servicios de consultoría y asesoría empresarial, dirigida tanto a empresas, como a organizaciones públicas. Nuestros servicios aportan valor añadido a nuestros clientes, con el objetivo de mejorar su competitividad e incrementar sus resultados.",
+    "OUR_CLIENTS":"Nuestros clientes",
+    "OUR_CLIENTS_MESSAGE_1":"Atención personalizada. Han resuelto rápidamente mis problemas",
+    "OUR_CLIENTS_MESSAGE_2":"Profesionales. Precio adoptado al servicio. Claridad en las explicaciones y en el día adía",
+    "LAST_NEWS":"Últimas Noticias"
+  },
+  "CONTACT":{
+    "TITLE":"Contacto",
+    "SEND_QUERY":"Envíanos tu consulta",
+    "DIRECTION":"Dirección",
+    "UBICATION":"Calle Los Roncaleses, 21 Bajo 31570 San Adrián, Navarra",
+    "PHONE":"Teléfono",
+    "PHONE_NUMBER":"948 114 055",
+    "EMAIL":"Email",
+    "EMAIL_TEXT":"hcaldez60@gmail.com",
+    "YOUR_NAME":"Tu nombre",
+    "YOUR_EMAIL":"Tu email",
+    "MESSAGE":"Mensaje",
+    "SEND":"Enviar",
+    "WHERE_WE_ARE":"Dónde Estamos"
+  },
+  "SERVICES":{
+    "TITLE":"Servicios",
+    "SUBTITLE":"Prestamos una amplia gama de servicios de consultoría y asesoría empresarial. Nuestros servicios aportan valor añadido a nuestros clientes, con el objetivo de mejorar su competitividad e incrementar sus resultados.",
+    "PARAGRAPH":"¡Contáctanos! Estamos para ayudarte"
+  },
+  "HEADER":{
+    "TITLE_UPS":"EFICACIA + EFICIENDIA,",
+    "TITLE_DOWN":"LA EXCELENCIA EN LA COMPETICIÓN",
+    "SUB_TITLE":"Aportamos la mejor colución a cuantos problemas se presenten en el entorno empresarial, con inmediatez, eficacia y solvencia"
+  },
+  "FOOTER":{
+    "UBICATION":"Calle Los Roncaleses nº 21 bajo 31570 San Adrián, Navarra",
+    "EMAIL":"Escríbenos: hcaldez60@gmail.com",
+    "PHONE":"Llámanos: 948 114 055",
+    "SEALS":"Nuestros Sellos",
+    "RRSS":"Redes Sociales",
+    "BUSINNES":"Empresa",
+    "LEGAL_WARNING":"Aviso Legal",
+    "PRIVACY_POLICY":"Politica de privacidad",
+    "COOKIE_POLICY":"Politica de cookies",
+    "WHERE_WE_ARE":"Dónde Estamos",
+    "COPYRIGHT":"2019 © C, Soluciones Empresariales del Valle del Ebro S.L.U. - Desarrollado con  por SDi"
+  },
+  "FORMS":{
+    "FIELDS_REQUIRED":"El campo obligatorio",
+    "EMAIL_FORMAT_INVALID":"El formato del email es erroneo"
+  }
+
+}

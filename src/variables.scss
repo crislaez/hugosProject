@@ -1,0 +1,16 @@
+$footerColorBlak: #282828;
+$footerColorRed: #FC243C;
+$footerColorBrown: #727073;
+$textColor: #646464;
+$textColorSecond: #9797B2;
+$colorWhite: #ffffff;
+$colorWhiteDark: #F2F2F2;
+$colorBlack: #242424;
+
+@mixin displayed( $justifyConten:space-around, $alignItems:'' ) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: $justifyConten;
+  align-items: $alignItems;
+}

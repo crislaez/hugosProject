@@ -1,0 +1,19 @@
+@import '../../../variables';
+
+section {
+  width: 100%;
+  min-height: 900px;
+  margin-bottom: 200px;
+
+}
+
+@media screen and (max-width: 850px){
+  section {
+
+  }
+}
+
+
+@media screen and (max-width: 560px){
+
+}

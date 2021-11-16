@@ -1,0 +1,184 @@
+@import '../../../../variables';
+// @include displayed();
+
+footer{
+  width: 100%;
+  min-height: 600px;
+  background: $footerColorBlak;
+
+
+  .footer-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    @include displayed();
+
+    .footer-div-absolute{
+      @include displayed(space-around, center);
+      width: 1200px;
+      margin: auto;
+
+      min-height: 150px;
+      position: absolute;
+      margin-top: -40px;
+      z-index: 1px;
+      background: $footerColorRed;
+      font-size: 18px;
+      color: white;
+
+      .footer-div-absolute-div{
+        width: 25%;
+        height: 100%;
+        @include displayed(space-between, center);
+
+        .footer-div-absolute-div-icon{
+          width: 20%;
+          height: 40%;
+
+          mat-icon{
+            font-size: 40px;
+          }
+        }
+
+        .footer-div-absolute-div-info{
+          width: 70%;
+          height: 50%;
+          line-height: 1.6;
+        }
+      }
+    }
+
+    .footer-div-up{
+      width: 100%;
+      height: 160px;
+    }
+
+    .footer-div-center{
+      width: 100%;
+      min-height: 400px;
+      @include displayed(space-around);
+
+      .footer-div-up-div{
+        width: 23%;
+        display: block;
+
+        h3{
+          color: white;
+          font-size: 20px;
+        }
+
+        .footer-div-up-div-image{
+          width: 50%;
+          height: 120px;
+          margin-top: 30px;
+        }
+
+        .footer-div-up-div-right-image{
+          width: 100%;
+          height: 220px;
+        }
+
+        .footer-div-up-div-rrss{
+          width: 100%;
+          margin-top: 20px;
+          @include displayed(space-around);
+
+          .footer-div-up-div-rrss-image{
+            width: 17%;
+            height: 40px;
+          }
+
+          .footer-div-up-div-rrss-text{
+            width: 70%;
+            font-size: 20px;
+            font-weight: bold;
+            @include displayed(flex-start, center);
+
+            a{
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .footer-div-up-div-business{
+          width: 100%;
+          height: 30px;
+
+          a{
+            font-size: 17px;
+            color: $footerColorBrown;
+            text-decoration: none;
+          }
+        }
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+
+      }
+    }
+
+    .footer-div-down{
+      width: 100%;
+      height: 50px;
+      border-top: 1px solid $footerColorBrown;
+      @include displayed(space-between,center);
+
+      span{
+        margin-left: 1%;
+        color: $footerColorBrown;
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 1200px){
+
+  .footer-div-absolute {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 850px){
+
+  .footer-div-absolute {
+    .footer-div-absolute-div {
+      width: 45% !important;
+      min-height: 50px !important;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 560px){
+
+  .footer-div-absolute{
+    .footer-div-absolute-div{
+      min-width: 80%;
+      // min-height: 50px !important;
+      padding: 5px;
+    }
+  }
+
+  .footer-div-center{
+    .footer-div-up-div{
+      min-width: 43%;
+      margin-top: 30px;
+      margin-bottom: 50px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 469px){
+
+  .footer-div-up{
+    margin-top: 100px;
+  }
+
+}
+

@@ -1,0 +1,138 @@
+@import '../../../variables';
+
+section {
+  width: 100%;
+  min-height: 400px;
+
+  >div{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 100px;
+    @include displayed(center, center);
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+    }
+
+  }
+
+  article {
+    max-width: 1200px;
+    min-height: 350px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    @include displayed(space-around, center);
+
+    .article-div-left{
+      width: 60%;
+      min-height: 400px;
+
+      form {
+
+        h2 {
+          font-size: 34px;
+        }
+
+        input[type=text], textarea {
+          width: 90%;
+          font-size: 20px;
+          border: 1px solid #E4E4E4;
+          margin-top: 20px;
+        }
+
+        input[type=text] {
+          height: 50px;
+          padding-left: 20px;
+        }
+
+        textarea {
+          height: 150px;
+          padding-left: 20px;
+        }
+
+        input[type=submit] {
+          width: 25%;
+          height: 60px;
+          font-size: 16px;
+          color: white;
+          background: $footerColorRed;
+          border: none;
+          border-radius: 40px;
+          margin-top: 50px;
+          cursor: pointer;
+        }
+
+        a {
+          display: none;
+        }
+      }
+
+      .article-div-left-errors {
+        color:$footerColorRed;
+      }
+    }
+
+    .article-div-right{
+      width: 35%;
+      min-height: 400px;
+
+      h3 {
+        font-size: 30px;
+      }
+
+      .article-div-right-div {
+        margin-top: 30px;
+        font-size: 20px;
+
+        @include displayed(space-around, center);
+
+        .article-div-right-div-left {
+          width: 15%;
+
+          mat-icon {
+            color:$footerColorRed;
+            font-size: 40px;
+          }
+        }
+
+        .article-div-right-div-right {
+          width: 85%;
+
+          p {
+            color: $textColor;;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+
+
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 850px){
+
+  article{
+    margin-bottom: 50px !important;
+
+    .article_div {
+      width: 98% !important;
+    }
+
+    .article-div-left {
+      width: 90% !important;
+    }
+
+    .article-div-right {
+      width: 90% !important;
+      margin-top: 50px;
+    }
+  }
+}
+

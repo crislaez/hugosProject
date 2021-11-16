@@ -1,0 +1,90 @@
+@import '../../../variables';
+
+section {
+  width: 100%;
+  min-height: 900px;
+  margin-bottom: 200px;
+
+  >div{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 100px;
+    @include displayed(center, center);
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+    }
+
+    h2 {
+      color: #DD3333;
+      font-style: italic;
+    }
+
+    p {
+      color: #DD3333;
+      font-size: 22px;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+  article {
+    max-width: 1200px;
+    min-height: 350px;
+    margin: 0 auto;
+  }
+
+  .article{
+    @include displayed(space-around, center);
+
+    .article_big {
+      width: 60%;
+
+      h3 {
+        font-size: 24px;
+        // font-weight: bold;
+      }
+
+    }
+
+    .article_small {
+      width: 35%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+
+}
+
+@media screen and (max-width: 850px){
+  section {
+
+    >div {
+      width: 96%;
+    }
+
+    .article {
+      margin-top: 20px;
+      margin-bottom: 40px;
+
+      .article_big {
+        min-width: 96%;
+      }
+
+      .article_small {
+        min-width: 96%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 560px){
+
+}
