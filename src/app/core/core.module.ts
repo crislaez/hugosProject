@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppComponent } from './layout/app.component'
-import { TranslateModule } from '@ngx-translate/core';
-import { GenericsModule } from '@projects/shared/generics/generics.module';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { GenericsModule } from '@projects/shared-ui/generics/generics.module';
+import { AppComponent } from './layout/app.component';
 
 @NgModule({
   imports: [
