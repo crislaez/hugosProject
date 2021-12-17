@@ -8,7 +8,6 @@ import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-transla
 import { environment } from '../environments/environment';
 import * as appConfig from './app-config';
 import { AppRoutingModule } from './app-routing.module';
-import { ContactModule } from './contact/contact.module';
 import { AppComponent } from './core';
 import { extModules } from './core/build-specifics';
 import { CoreModule } from './core/core.module';
@@ -17,8 +16,6 @@ import { appInitTranslations, createTranslateLoader } from './core/i18n/utils/cu
 import { DynamicLocaleId } from './core/i18n/utils/dynamic-locale-id.class';
 import { CoreConfigService } from './core/services/core-config.service';
 import { HttpErrorInterceptor } from './core/services/http-error.interceptor';
-import { HomeModule } from './home/home.module';
-import { ServiceModule } from './service/service.module';
 
 export function appInitializerFactory(translate: TranslateService, coreConfig: CoreConfigService): Function {
   coreConfig.importConfig(appConfig);
@@ -52,16 +49,9 @@ export function localeIdFactory(translate: TranslateService): DynamicLocaleId {
     extModules,
     HttpClientModule,
     AppRoutingModule,
-    HomeModule,
-    ServiceModule,
-    ContactModule,
     BrowserAnimationsModule
   ],
   providers: [
-    // {
-    //   provide: RouteReuseStrategy,
-    //   useClass: IonicRouteStrategy
-    // },
     {
       provide: APP_INITIALIZER,
       useFactory: appInitializerFactory,
