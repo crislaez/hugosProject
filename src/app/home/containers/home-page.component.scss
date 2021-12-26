@@ -4,6 +4,7 @@
 section{
   width: 100%;
   min-height: 900px;
+  overflow: hidden;
 
   article{
     width: 100%;
@@ -371,4 +372,12 @@ section{
     }
   }
 
+}
+
+@media screen and (max-width: 411px){
+  section{
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 }

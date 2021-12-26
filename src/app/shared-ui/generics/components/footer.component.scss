@@ -182,3 +182,44 @@ footer{
 
 }
 
+@media screen and (max-width: 411px){
+
+  .footer-div-up{
+    height: 100px !important;
+  }
+
+  .footer-div-center{
+    font-size: 18px !important;
+
+    .footer-div-up-div-image{
+      height: 100px !important;
+    }
+
+    .footer-div-up-div{
+
+      .footer-div-up-div-rrss-image{
+        height: 33px !important;
+      }
+
+      .footer-div-up-div-rrss-text{
+        a{
+          font-size: 16px !important;
+        }
+      }
+    }
+
+    .footer-div-up-div{
+
+      .footer-div-up-div-business{
+        height: 45px !important;
+
+        a{
+          font-size: 16px !important;
+        }
+      }
+    }
+
+  }
+
+}
+

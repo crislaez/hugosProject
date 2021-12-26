@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, HostListener, Input } from '@angular/core';
-import { trackById } from '@projects/shared/shared/utils/utils';
+import { trackById } from '@projects/shared/utils/utils/functions';
 
 
 @Component({
@@ -39,7 +39,7 @@ import { trackById } from '@projects/shared/shared/utils/utils';
           </div>
         </div>
 
-        <div  class="header-div-center" id="navbar" (scroll)="onWindowScroll()">
+        <div class="header-div-center" id="navbar" (scroll)="onWindowScroll()">
           <div class="header-div-center-left">
             <img [src]="imageLogo" [alt]=imageLogo/>
           </div>
@@ -127,13 +127,6 @@ export class HeaderComponent {
     } else {
       this.showFixedNav = false;
     }
-    // if(window.innerWidth > 490){
-    //   if (window.pageYOffset > element.clientHeight) {
-    //     this.showFixedNav = true;
-    //   } else {
-    //     this.showFixedNav = false;
-    //   }
-    // }
   }
 
 

@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { trackById } from '@projects/shared/shared/utils/utils';
+import { trackById } from '@projects/shared/utils/utils/functions';
 
 @Component({
   selector: 'app-footer',

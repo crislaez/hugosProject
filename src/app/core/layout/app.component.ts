@@ -26,10 +26,10 @@ export class AppComponent {
     map((event: NavigationEnd) => {
       const { url = ''} = event || {}
       let route = url?.split('/')[1];
-      console.log(route)
+      // console.log(route)
       return route || 'inicio';
     })
-  )
+  );
 
 
   constructor(private router: Router) { }

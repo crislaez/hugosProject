@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewChild, ElementRef } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { trackById } from '@projects/shared/shared/utils/utils';
+import { trackById } from '@projects/shared/utils/utils/functions';
 
 @Component({
   selector: 'app-contact-page',
